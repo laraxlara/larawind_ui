@@ -1,0 +1,32 @@
+{
+  "components": {
+    "features": [
+      {
+        "id": "1",
+        "title": "Feature Component",
+        "date": "October 1, 2022",
+        "text": "Description"
+      },
+      {
+        "id": "2",
+        "title": "Feature Component",
+        "date": "October 1, 2022",
+        "text": "Description"
+      }
+    ],
+    "heros": [
+      {
+        "id": "1",
+        "title": "Hero Component",
+        "date": "October 1, 2022",
+        "text": "Description"
+      },
+      {
+        "id": "2",
+        "title": "Hero Component",
+        "date": "October 1, 2022",
+        "text": "Description"
+      }
+    ]
+  }
+}
