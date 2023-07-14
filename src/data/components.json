@@ -3,28 +3,67 @@
     "features": [
       {
         "id": "1",
-        "title": "Feature Component",
-        "date": "October 1, 2022",
-        "text": "Description"
-      },
-      {
-        "id": "2",
-        "title": "Feature Component",
-        "date": "October 1, 2022",
-        "text": "Description"
+        "name": "Feature Component",
+        "text": "Description",
+        "components": "features",
+        "imgPath": "/images/wireframes/feature1.png"
       }
     ],
     "heros": [
       {
         "id": "1",
-        "title": "Hero Component",
-        "date": "October 1, 2022",
-        "text": "Description"
-      },
+        "name": "Hero Component",
+        "text": "Description",
+        "components": "heros",
+        "imgPath": "/images/wireframes/hero1.png"
+      }
+    ],
+    "ctas": [
       {
-        "id": "2",
-        "title": "Hero Component",
-        "date": "October 1, 2022",
+        "id": "1",
+        "name": "Hero Component",
+        "text": "Description"
+      }
+    ],
+    "stats": [
+      {
+        "id": "1",
+        "name": "Hero Component",
+        "text": "Description"
+      }
+    ],
+    "headers": [
+      {
+        "id": "1",
+        "name": "Hero Component",
+        "text": "Description"
+      }
+    ],
+    "404s": [
+      {
+        "id": "1",
+        "name": "Hero Component",
+        "text": "Description"
+      }
+    ],
+    "teams": [
+      {
+        "id": "1",
+        "name": "Hero Component",
+        "text": "Description"
+      }
+    ],
+    "pricings": [
+      {
+        "id": "1",
+        "name": "Hero Component",
+        "text": "Description"
+      }
+    ],
+    "forms": [
+      {
+        "id": "1",
+        "name": "Hero Component",
         "text": "Description"
       }
     ]

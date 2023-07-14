@@ -9,7 +9,7 @@ import logo from "../../../public/logo-nobg.png";
 const Sidebar = () => {
   return (
     <div className="sticky top-0 h-screen flex flex-row bg-gray-100 shadow-2xl relative">
-      <div className="flex flex-col w-56 md:w-80 bg-white rounded-r-3xl overflow-hidden">
+      <div className="flex flex-col w-56 md:w-72 bg-white rounded-r-3xl overflow-hidden">
         <Link
           href="/"
           className="flex items-center justify-center h-20 shadow-md"

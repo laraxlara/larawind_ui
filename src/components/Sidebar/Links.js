@@ -12,7 +12,7 @@ export const links = [
   {
     id: 3,
     name: "Banners",
-    href: "/heros",
+    href: "/banners",
   },
   {
     id: 4,
@@ -41,17 +41,22 @@ export const links = [
   },
   {
     id: 9,
-    name: "Sidebars",
-    href: "/sidebars",
+    name: "Forms",
+    href: "/forms",
   },
   {
     id: 10,
-    name: "Sidebars",
-    href: "/sidebars",
+    name: "404s",
+    href: "/404s",
   },
   {
     id: 11,
-    name: "Sidebars",
-    href: "/sidebars",
+    name: "Pricings",
+    href: "/pricings",
+  },
+  {
+    id: 12,
+    name: "Cards",
+    href: "/cards",
   },
 ];

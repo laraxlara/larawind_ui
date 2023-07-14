@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Hero Component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@300;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header
+      class="rounded-lg bg-white shadow-2xl flex items-center justify-between py-4 px-8 md:py-8"
+    >
+      <a
+        href="/"
+        class="text-black-800 inline-flex items-center font-sans gap-1 text-xl font-bold md:text-3xl"
+        aria-label="logo"
+      >
+        Larawind UI
+      </a>
+      <nav class="hidden lg:flex font-serif">
+        <a
+          href="/"
+          class="text-md font-light text-gray-600 border-x border-gray-400 px-2 transition duration-100 hover:text-[#19FFBD] active:text-[#19FFBD]"
+        >
+          Home
+        </a>
+        <a
+          href="/"
+          class="text-md font-light text-gray-600 border-r border-gray-400 px-2 transition duration-100 hover:text-[#19FFBD] active:text-[#19FFBD]"
+        >
+          About
+        </a>
+        <a
+          href="/"
+          class="text-md font-light text-gray-600 border-r border-gray-400 px-2 transition duration-100 hover:text-[#19FFBD] active:text-[#19FFBD]"
+        >
+          Services
+        </a>
+        <a
+          href="/"
+          class="text-md font-light text-gray-600 border-r border-gray-400 px-2 transition duration-100 hover:text-[#19FFBD] active:text-[#19FFBD]"
+        >
+          Blog
+        </a>
+        <a
+          href="/"
+          class="text-md font-light text-gray-600 border-r border-gray-400 px-2 transition duration-100 hover:text-[#19FFBD] active:text-[#19FFBD]"
+        >
+          Contact
+        </a>
+      </nav>
+      <div
+        class="-ml-8 hidden flex-col gap-2.5 sm:flex-row sm:justify-center lg:flex lg:justify-start"
+      >
+        <a
+          href="/"
+          class="inline-block rounded-xl bg-[#19FFBD] px-8 py-3 text-center text-sm font-light text-white outline-none ring-[#19FFBD] transition duration-100 hover:bg-[#19FFBD] focus-visible:ring active:bg-[#19FFBD] md:text-base"
+        >
+          Purchase
+        </a>
+        <svg
+          fill="#19FFBD"
+          viewBox="0 0 16 16"
+          class="h-8 w-8 mt-2 pl-2"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            {" "}
+            <path
+              d="M12.027 9.92L16 13.95 14 16l-4.075-3.976A6.465 6.465 0 0 1 6.5 13C2.91 13 0 8.083 0 6.5 0 2.91 2.917 0 6.5 0 10.09 0 13 2.917 13 6.5a6.463 6.463 0 0 1-.973 3.42zM1.997 6.452c0 2.48 2.014 4.5 4.5 4.5 2.48 0 4.5-2.015 4.5-4.5 0-2.48-2.015-4.5-4.5-4.5-2.48 0-4.5 2.014-4.5 4.5z"
+              fill-rule="evenodd"
+            ></path>
+            {" "}
+          </g>
+        </svg>
+      </div>
+
+      <button
+        type="button"
+        class="inline-flex md:text-base lg:hidden font-sans"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          x="0px"
+          y="0px"
+          width="50"
+          height="50"
+          viewBox="0,0,256,256"
+        >
+          <g
+            fill="#626262"
+            fill-rule="nonzero"
+            stroke="none"
+            stroke-width="1"
+            stroke-linecap="butt"
+            stroke-linejoin="miter"
+            stroke-miterlimit="10"
+            stroke-dasharray=""
+            stroke-dashoffset="0"
+            font-family="none"
+            font-weight="none"
+            font-size="none"
+            text-anchor="none"
+          >
+            <g transform="scale(5.12,5.12)">
+              <path d="M0,9v2h50v-2zM0,24v2h50v-2zM0,39v2h50v-2z"></path>
+            </g>
+          </g>
+        </svg>
+      </button>
+    </header>
+  </body>
+</html>
